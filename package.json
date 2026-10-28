@@ -1,0 +1,15 @@
+{
+  "name": "magpie-qiniu-plugin",
+  "version": "0.1.0",
+  "description": "Magpie provider plugin: Qiniu (七牛) AI API gateway",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": ["index.mjs", "README.md"],
+  "keywords": ["opencode", "opencode-plugin", "magpie", "qiniu", "qiniu-plugin"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tk103331/magpie-qiniu-plugin.git"
+  },
+  "license": "MIT",
+  "magpie": { "icon": "https://static.qiniu.com/favicon.ico", "maxConcurrency": 4 }
+}
